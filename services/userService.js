@@ -28,6 +28,7 @@ const updateUser = (id, data) => {
     return user;
 };
 
+
 const deleteUser = (id) => {
     const initialLength = users.length;
     users = users.filter((u) => u.id !== parseInt(id));
